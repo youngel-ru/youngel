@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Roboto:wght@700;900&display=swap');
+
+body {
+  background-image: url("../img/background2.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+.github img{
+  width: 70px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.mainBox {
+  
+  background-color: #fadfbe;
+  opacity: 0.70;
+}
+
+.mainName {
+  text-shadow: 1px 1px 2px white, 0 0 1em;
+  font-family: "Roboto", sans-serif;
+}
+
+.mainDesc {
+  font-family: "Roboto", sans-serif;
+  margin-top: 0.5em;
+}
+
+.betaText {
+  font-family: "Roboto", sans-serif;
+  margin-top: 1em;
+}
+
+.textCreate {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5rem;
+}
+
+.textIF {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: -5rem;
+}
+
+.formCreate{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.labelBtn{
+  background-color: #faa741;
+  border-color: black;
+  margin-left: 3rem;
+  border: 2px solid black;
+}
+
+#inputName{
+  background-color: #faa741;
+  -webkit-appearance: none;
+  height: 48px;
+  font-size: 16px;
+  border-color: black;
+  transition: all .15s ease;
+}
+
+.room-card{
+  background-color: #f58a3d;
+  margin-left: 6%;
+  margin-top: 4%;
+  width: 18rem;
+}
+
+@media (min-width: 1200px) {
+  .mainBox {
+    min-height: 100vh;
+  }
+
+  .mainName {
+    font-size: 6em;
+  }
+
+  .mainDesc {
+    font-size: 2.5em;
+  }
+
+  .betaText {
+    font-size: 2em;
+  }
+
+  .textCreate, .textIF {
+    margin-top: 3rem;
+    font-size: 2em;
+  }
+
+  #inputName {
+    margin-left: 7rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .mainBox {
+    min-height: 100vh;
+  }
+
+  .mainName {
+    font-size: 5em;
+  }
+
+  .mainDesc {
+    font-size: 2em;
+  }
+
+  .betaText {
+    font-size: 2em;
+  }
+
+  .textCreate, .textIF {
+    margin-top: 3rem;
+    font-size: 1.5em;
+  }
+
+  #inputName {
+    margin-left: 6rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .mainBox {
+    min-height: 100vh;
+  }
+
+  .mainName {
+    font-size: 4em;
+  }
+
+  .mainDesc {
+    font-size: 2em;
+  }
+
+  .textCreate {
+    margin-top: 2rem;
+  }
+
+  .betaText {
+    font-size: 2em;
+  }
+
+  #inputName {
+    margin-left: 4rem;
+  }
+
+  #inputBtn {
+    margin-left: 2em;
+  }
+
+  .room-card{
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 767px) {
+  .mainBox {
+    min-height: 100vh;
+  }
+
+  .room-card{
+    margin-top: 5%;
+  }
+
+  .mainName {
+    font-size: 3em;
+  }
+
+  .mainDesc {
+    font-size: 1.5em;
+  }
+
+  .betaText {
+    font-size: 1.7em;
+  }
+
+
+  #inputName {
+    margin-left: 2rem;
+  }
+
+  #inputBtn {
+    margin-left: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .github {
+    width: 10px;
+  }
+  .betaText {
+    font-size: 1em;
+  }
+
+  .textCreate {
+    font-size: 1.2em;
+    margin-top: 2rem;
+  }
+
+  #form1 {
+    margin-top: -3em;
+  }
+
+  #inputName {
+    margin-left: 1em;
+  }
+
+  #inputBtn {
+    margin-left: 1em;
+  }
+
+  .textIF {
+    margin-top: 1rem;
+  }
+}
