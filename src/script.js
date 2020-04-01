@@ -62,3 +62,8 @@ function appendMessage(message) {
   messageContainer.append(messageElement)
   }
 }
+
+// $(document).ready(function(){
+//   $('#message-container').animate({
+//       scrollTop: $('#message-container')[0].scrollHeight}, 2000);
+// });
